@@ -56,3 +56,14 @@ footer {
   background-color: #81150b;
   text-align: center;
 }
+.btn-zold {
+  color: white;
+  width: 100%;
+}
+.cont-cent {
+  margin: 0 auto;
+  width: 70%;
+}
+.hide {
+  display: none;
+}
