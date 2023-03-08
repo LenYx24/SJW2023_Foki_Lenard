@@ -49,8 +49,7 @@
         <form>
           <div class="form-group">
             <label for="p1">Pizza típusa</label>
-            <select class="form-control" class="p1">
-              <option selected disabled hidden>Válasszon egyet...</option>
+            <select class="form-control" id="p1">
               <option value="3200">Nápolyi pizza</option>
               <option value="3000">Bolognai pizza</option>
               <option value="2800">Songoku pizza</option>
@@ -67,7 +66,7 @@
                 class="form-check-input"
                 type="checkbox"
                 value="sajt-200"
-                id="f1"
+                class="f1"
               />
               <label class="form-check-label" for="f1">Sajt</label>
             </div>
@@ -76,7 +75,7 @@
                 class="form-check-input"
                 type="checkbox"
                 value="sonka-250"
-                id="f1"
+                class="f1"
               />
               <label class="form-check-label" for="f1">Sonka</label>
             </div>
@@ -85,7 +84,7 @@
                 class="form-check-input"
                 type="checkbox"
                 value="kukorica-150"
-                id="f1"
+                class="f1"
               />
               <label class="form-check-label" for="f1">Kukorica</label>
             </div>
@@ -94,7 +93,7 @@
                 class="form-check-input"
                 type="checkbox"
                 value="gomba-200"
-                id="f1"
+                class="f1"
               />
               <label class="form-check-label" for="f1">Gomba</label>
             </div>
@@ -103,16 +102,12 @@
                 class="form-check-input"
                 type="checkbox"
                 value="chili paprika-230"
-                id="f1"
+                class="f1"
               />
               <label class="form-check-label" for="f1">Chili paprika</label>
             </div>
           </div>
-          <button
-            type="submit"
-            onclick="click()"
-            class="btn btn-zold btn-success"
-          >
+          <button type="button" id="btt" class="btn btn-zold btn-success">
             Megrendelem
           </button>
           <div class="alert alert-success hide" role="alert">Sikeres</div>
