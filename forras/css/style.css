@@ -7,13 +7,52 @@ body {
 .bg-red {
   background-color: #81150b;
 }
-h1 {
+h1,
+h2 {
   font-family: "Cabin Sketch", cursive;
-  font-size: 7rem;
+  font-size: 3rem;
+  color: #5d6a09;
+}
+h1 {
   font-variant: small-caps;
+  font-size: 7rem;
 }
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 50px;
   }
+}
+ul {
+  list-style-image: url("../img/pizza_icon.png");
+  line-height: 30px;
+}
+.bg-feher {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+p {
+  line-height: 2;
+  text-indent: 15px;
+}
+#keret {
+  border: 2px double #5d6a09;
+  background-color: #ffeccb;
+  margin: 0 auto;
+}
+.zold-arnyek {
+  box-shadow: 2px 2px 5px #5d6a09;
+}
+.dolt {
+  font-style: italic;
+}
+.link {
+  letter-spacing: 3px;
+  padding: 5px;
+  text-decoration: none;
+}
+.link:hover {
+  background-color: black;
+}
+footer {
+  background-color: #81150b;
+  text-align: center;
 }
